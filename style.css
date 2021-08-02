@@ -1,0 +1,71 @@
+#maze {
+  position: relative;
+}
+#start {
+  position: absolute;
+  top: 205px;
+  background-color: green;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+}
+#end {
+  position: absolute;
+  top: 205px;
+  left: 560px;
+  background-color: purple;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+}
+#boundary1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: grey;
+  width: 200px;
+  height: 200px;
+}
+
+#boundary2 {
+  position: absolute;
+  top: 0;
+  left: 400px;
+  background-color: grey;
+  width: 200px;
+  height: 200px;
+}
+
+#boundary3 {
+  position: absolute;
+  top: 150px;
+  left: 250px;
+  background-color: grey;
+  width: 100px;
+  height: 100px;
+}
+
+#boundary4 {
+  position: absolute;
+  top: 0px;
+  left: 200px;
+  background-color: grey;
+  width: 200px;
+  height: 50px;
+}
+#boundary5 {
+  position: absolute;
+  top: 250px;
+  left: 0px;
+  background-color: grey;
+  width: 600px;
+  height: 50px;
+}
+
+.red_bg{
+    background-color: orange!important;
+}
